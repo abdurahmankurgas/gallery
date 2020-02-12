@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Galery (;</title>
+    <style type="text/css">
+    .row {
+        width: 90%;
+        max-width: 1700px;
+        margin: 0 0 0 90px;
+    }
+
+    .row::after {
+        content: '';
+        display: block;
+        clear: left;
+    }
+
+    .column {
+        float: left;
+        box-sizing: border-box;
+        padding: 8px;
+    }
+
+    .box {
+        align-items: center;
+        height: 177px;
+        width: 205px;
+        padding: 5px;
+        background-color: rgb(115, 159, 224);
+        background-image: url("placeholder-image.png");
+        text-align: center;
+        line-height: 1900%;
+        border-radius: 15%;
+        background-repeat: no-repeat;
+        background-size: 80px;
+        margin: 5px;
+        background-position: center;
+        
+    }
+
+    .box {
+        
+    }
+
+    @media screen and (max-width: 1024px) {
+        .column {
+            width: 33.33%;
+        }
+    }
+
+    @media screen and (max-width: 768px) {
+        .column {
+            width: 50%;
+        }
+    }
+
+    @media screen and (max-width: 606px) {
+        .column {
+            width: 100%;
+        }
+    }
+
+
+
+
+
+    </style>
+    
+</head>
+<body>
+    <h1>Gallery Heading</h1>
+    <div class="row">
+        <div class="column">
+            <div class="box">Image Title</div>
+        </div>
+        <div  class="column">
+            <div class="box">Image Title</div>
+        </div>
+        <div class="column">
+            <div class="box">Image Title</div>
+        </div>
+        <div class="column">
+            <div class="box">Image Title</div>
+        </div>
+        <div class="column">
+            <div class="box">Image Title</div>
+        </div>
+        <div class="column">
+            <div class="box">Image Title</div>
+        </div>
+        <div class="column">
+            <div class="box">Image Title</div>
+        </div>
+        <div class="column">
+            <div class="box">Image Title</div>
+        </div>
+        <div class="column">
+            <div class="box">Image Title</div>
+        </div>
+        <div class="column">
+            <div class="box">Image Title</div>
+        </div>
+    </div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nec sollicitudin magna. Pellentesque et nisi lectus. Maecenas vitae sollicitudin ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dictum in felis vitae dignissim. Nam ullamcorper erat sit amet ex cursus, sit amet congue ante vulputate. Aliquam erat volutpat. Donec non eleifend mi. Sed tristique ex efficitur euismod facilisis. Mauris at auctor lectus, vitae consectetur ipsum. Fusce dapibus id erat in sollicitudin. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In ut risus consectetur, auctor tortor vel, porta lectus. Suspendisse id pharetra felis, ut porttitor purus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nec sollicitudin magna. Pellentesque et nisi lectus. Maecenas vitae sollicitudin ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dictum in felis vitae dignissim. Nam ullamcorper erat sit amet ex cursus, sit amet congue ante vulputate. Aliquam erat volutpat. Donec non eleifend mi. Sed tristique ex efficitur euismod facilisis. Mauris at auctor lectus, vitae consectetur ipsum. Fusce dapibus id erat in sollicitudin. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In ut risus consectetur, auctor tortor vel, porta lectus. Suspendisse id pharetra felis, ut porttitor purus.</p>
+</body>
+</html>
